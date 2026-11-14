@@ -1,6 +1,6 @@
 # Carrinho robô ChuvaRota
 
-Vinicius Barros, RM 97824 (FIAP, Global Solution 2026, Project-Based Maker Lab)
+Vinicius Oliveira de Barros, RM 97824 (FIAP, Global Solution 2026, Project-Based Maker Lab)
 
 Vídeo de demonstração: https://youtu.be/e_pNHcq62Pw
 
