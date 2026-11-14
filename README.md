@@ -6,6 +6,14 @@ Vídeo de demonstração: https://youtu.be/e_pNHcq62Pw
 
 Código: https://github.com/ViniciusBarrosFiap/chuvarota-maker
 
+## Teste rápido (para quem vai avaliar)
+O carrinho precisa do hardware, então o jeito mais rápido de ver é o **vídeo**, no link lá em cima. O que dá para rodar sem o carrinho é a conferência da IA dele: o teste compila o código do carrinho e confere que ele decide igual ao Python.
+```
+pip install numpy scikit-learn matplotlib
+python tinyml/testar_c.py
+```
+Deve imprimir que o C++ decide igual ao Python em 100% das 400 janelas de teste. O programa do carrinho abre no Arduino IDE (`robo/robo.ino`).
+
 ## O que é
 Um carrinho com ESP32 que eu dirijo pelo app **Dabble** (Bluetooth). Ele tem um sensor de distância (HC-SR04), um **LDR** (sensor de luz) e uma **IA pequena (TinyML)** rodando no próprio ESP32. A IA olha a luz e a distância e reage na hora: acende o LED no escuro, apita em alerta e freia se algo vem na direção dele.
 
